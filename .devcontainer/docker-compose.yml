@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  protea-api-server:
+    build:
+      context: ..
+      dockerfile: ./.devcontainer/Dockerfile
+    volumes:
+      - ../:/workspace
+    tty: true

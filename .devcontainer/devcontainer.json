@@ -1,0 +1,10 @@
+{
+    "name": "Protea API Server",
+    "dockerComposeFile": "./docker-compose.yml",
+    "service": "protea-api-server",
+    "workspaceFolder": "/workspace",
+    "extensions": [
+        "ms-python.python",
+        "kevinrose.vsc-python-indent"
+    ]
+}
