@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from greeting import Greeting
+from lib.greeting import Greeting
 
 app = FastAPI()
 
